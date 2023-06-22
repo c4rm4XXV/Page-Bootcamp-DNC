@@ -164,13 +164,77 @@
 
             }
 
+            footer{
+                background-color: var(--azul-DNC);
+                width: 100%;
+                color: #FFFFFF;
+                font-family: var(--font);
+                font-size: 18px;
+            }
 
-            #sectionRodape{
+            footer .linhaOne{
                 display: flex;
                 justify-content: space-around;
+                align-items: center;
+                text-align: center;
             }
 
-            #linkRodape{
-                text-decoration: none;
+            footer ul{
                 list-style: none;
+                margin: 0px;
+                padding: 0px;
             }
+
+            footer nav{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 300px;
+            }
+
+            footer h5{
+                font-weight: 800px;
+                font-size: 18px;
+                background-color: var(--black-DNC);
+                border-radius: 5px;
+                padding: 15px 5px 15px 5px;
+                margin-bottom: 15px;
+            }
+
+            footer ul li{
+                font-weight: 600px;
+                margin: 10px 20px 10px 20px;
+            }
+
+            footer a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+
+            footer a:hover {
+                color: var(--cinza-hover);
+            }
+
+            footer .endereco{
+                width: 25%;
+            }
+
+            footer .linhaTwo{
+                font-weight: 600px;
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                margin: 0px;
+                padding: 10px;
+            }
+
+            footer .linhaTwo a {
+                padding: 5px;
+            }
+            footer .linhaTwo a:first-child {
+                border-right: 3px solid white ;
+            }
+
+@media only screen and (max-width: 600px) {
+    
+}
