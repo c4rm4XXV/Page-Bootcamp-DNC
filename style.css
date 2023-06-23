@@ -236,5 +236,59 @@
             }
 
 @media only screen and (max-width: 600px) {
-    
+    #menuHead{
+        
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0px;
+
+    }
+
+    #menuHead button{
+        margin: 0px;
+        width: 100%;
+    }
+
+    #menuLink{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #menuLink a{
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+
+    #titleSectionCenter{
+        font-size: 38px;
+    }
+
+    #textSectionCenter{
+        font-size: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .formLabel{
+        font-size: 25px;
+    }
+
+    #sectionCenter form{
+        width: 95%;
+        font-size: 25px;
+    }
+
+    #buttonSubmit{
+        width: 95%;
+    }
+    #inputCheckbox{
+        font-size: 18px;
+        width: 100%;
+    }
+    #inputCheckbox li{
+        align-items: center;
+    }
 }
